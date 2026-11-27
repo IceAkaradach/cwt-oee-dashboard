@@ -1,0 +1,82 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'IBM Plex Sans Thai', 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+    background-color: #F5F7FA;
+    color: #0F172A;
+  }
+
+  .tabular-nums {
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+/* Animated glowing flow lines for Isometric Factory */
+@keyframes flowDash {
+  0% {
+    stroke-dashoffset: 48;
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+@keyframes flowPulse {
+  0%, 100% {
+    opacity: 0.55;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes hubGlow {
+  0%, 100% {
+    box-shadow: 0 0 0 6px rgba(37, 99, 235, 0.14), 0 0 28px rgba(37, 99, 235, 0.35), 0 12px 24px -6px rgba(37, 99, 235, 0.45);
+  }
+  50% {
+    box-shadow: 0 0 0 11px rgba(37, 99, 235, 0.22), 0 0 42px rgba(59, 130, 246, 0.55), 0 16px 32px -6px rgba(37, 99, 235, 0.55);
+  }
+}
+
+.flow-line-animated {
+  stroke-dasharray: 10 6;
+  animation: flowDash 1.4s linear infinite;
+}
+
+.flow-line-process {
+  stroke-dasharray: 6 6;
+  animation: flowDash 2.2s linear infinite;
+}
+
+.flow-glow {
+  animation: flowPulse 2.4s ease-in-out infinite;
+}
+
+.oee-hub-glow {
+  animation: hubGlow 3s ease-in-out infinite;
+}
+
+/* Blend white-background isometric illustrations cleanly onto white canvas */
+.iso-station-img {
+  mix-blend-mode: multiply;
+  user-select: none;
+  pointer-events: none;
+}
+
+/* Custom slim scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: #CBD5E1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #94A3B8;
+}

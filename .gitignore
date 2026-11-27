@@ -1,0 +1,14 @@
+# Dependencies & Build Output
+node_modules/
+dist/
+package-lock.json
+tsconfig.tsbuildinfo
+
+# OS & Logs
+.DS_Store
+Thumbs.db
+*.log
+
+# Large local CAD files
+*.dxf
+*.dwg
