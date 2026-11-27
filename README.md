@@ -2,7 +2,11 @@
 
 Web Dashboard แสดงผล OEE แบบ **Isometric 2.5D แนวการ์ตูน** สำหรับ **โรงงานแพรกษา (Chai Watana Tannery Group)** พร้อมศูนย์กลาง OEE รวมเรืองแสง เส้น Flow เคลื่อนไหว การ์ด KPI (`A · P · Q`) และหน้าต่างเจาะลึกรายเครื่องจักรทั้ง 4 แผนก
 
-> **สำคัญสำหรับผู้พัฒนา / AI ที่จะทำต่อ:** กรุณาอ่านและใช้คำสั่งล็อคดีไซน์ในไฟล์ **[AI_LOCK_PROMPT.md](./AI_LOCK_PROMPT.md)** (และ **[AGENTS.md](./AGENTS.md)**) เพื่อคงหน้าตาและโครงสร้าง Dashboard ให้เหมือนกัน 100% ไม่ให้ AI เปลี่ยนเป็นรูปแบบอื่น (`Cutting`, `Perforate`, `Quilting`, `Sewing`)
+> **สำคัญสำหรับผู้พัฒนา / AI ที่จะทำต่อ:** กรุณาอ่านและใช้คำสั่งล็อคดีไซน์ในไฟล์ **[AI_LOCK_PROMPT.md](./AI_LOCK_PROMPT.md)** (และ **[AGENTS.md](./AGENTS.md)**) เพื่อคงหน้าตาและโครงสร้าง Dashboard ให้เหมือนกัน 100% ไม่ให้ AI เปลี่ยนเป็นรูปแบบอื่น
+
+## ตัวอย่างหน้าจอ Output (Reference UI)
+
+![CWT OEE System Isometric 2.5D Overview](./docs/preview-overview.png) (`Cutting`, `Perforate`, `Quilting`, `Sewing`)
 
 ---
 

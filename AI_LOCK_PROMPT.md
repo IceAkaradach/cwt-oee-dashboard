@@ -1,5 +1,9 @@
 # AI_LOCK_PROMPT — คำสั่งกำกับ AI เพื่อล็อคหน้าตาและรูปแบบ Dashboard
 
+> **ภาพอ้างอิง Output ที่ต้องคงไว้:** ดูไฟล์ [`docs/preview-overview.png`](./docs/preview-overview.png)
+>
+> ![CWT OEE Reference Output](./docs/preview-overview.png)
+
 > **วิธีใช้:** ให้เพื่อนก๊อปปี้ข้อความในกรอบด้านล่างนี้ส่งให้ AI (Antigravity / Cursor / Claude / ChatGPT / Copilot) **ทุกครั้งก่อนสั่งให้แก้หรือต่อยอดโค้ด** เพื่อป้องกัน AI เปลี่ยนหน้าตาหรือรื้อโครงสร้างเดิม
 
 ---
